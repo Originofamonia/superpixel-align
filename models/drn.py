@@ -5,7 +5,7 @@ from chainer import cuda
 import chainer.functions as F
 import chainer.links as L
 import numpy as np
-from sequential import Sequential
+from models.sequential import Sequential
 
 
 def conv3x3(in_planes, out_planes, stride=1, padding=1, dilation=1):
