@@ -117,3 +117,5 @@ output/
 pretrained_models/
 notebooks/min-seg-road/__pycache__/
 segments_data/
+segments/
+*.json

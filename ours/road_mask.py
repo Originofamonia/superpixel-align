@@ -18,7 +18,7 @@ import torchvision.transforms as transforms
 from torch.autograd import Variable
 
 import notebooks.min_seg_road.drn as models
-from notebooks.min_seg_road.mini_workingexample import weighted_kmeans, image_loader
+from notebooks.min_seg_road.min_workingexample import weighted_kmeans, image_loader
 
 
 def generate_mask(mask_path, images):
